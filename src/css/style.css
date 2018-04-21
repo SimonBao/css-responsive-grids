@@ -120,3 +120,17 @@ img {
   grid-area: top-box-b;
 }
 
+/* Boxes */
+
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  background: var(--primary);
+  text-align: center;
+  box-shadow: var(--shadow);
+  padding: 1.5rem 2rem;
+}
